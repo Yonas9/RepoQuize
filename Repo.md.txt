@@ -1,0 +1,25 @@
+git clone rep
+cd to the repo
+create folder
+save the assignment
+git status
+git add .
+git commit -m "message"
+
+**** for the first time need to create SSH Key***
+
+
+ssh-keygen -t rsa -b 4096 -C "emailaddress"
+
+the default place of the created ssh key /users/gwen/.ssh/id_rsa :filename
+
+  ls | grep filename
+
+filename
+filename.pub 
+
+type and enter Cat filename.pub and copy public key(filename.pub)
+
+save the public key to in the sapace in the hithub setting>SSH Gen
+
+then git push origin master
